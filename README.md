@@ -13,6 +13,7 @@ python3 tugas/rekap_nilai_file.py
 - ValueError
 ## Test Case
 | Kasus | Kondisi | Hasil yang diharapkan | Hasil aktual | Status |
+|-------|---------|-----------------------|--------------|--------|
 | Normal | Semua baris valid | Semua record diproses dan rekap benar. | Semua record diproses dan rekap benar. | Sesuai |
 | File hilang | nilai.txt tidak tersedia | Pesan file tidak ditemukan; program tidak crash. | Pesan file tidak ditemukan; program tidak crash. | Sesuai |
 | Nilai invalid | A004,abc | Baris invalid dilewati/dilaporkan; record lain tetap diproses. | Baris invalid dilewati/dilaporkan; record lain tetap diproses. | Sesuai |
